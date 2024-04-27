@@ -1,0 +1,6 @@
+[submodule "LinuxNetwork"]
+	path = LinuxNetwork
+	url = https://github.com/Sergista/LinuxNetwork
+[submodule "DevOps"]
+	path = DevOps
+	url = https://github.com/Sergista/DevOps
