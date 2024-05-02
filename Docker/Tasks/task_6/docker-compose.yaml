@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  server:
+    container_name: Main_server
+    build: server/
+
+  client:
+    container_name: Clinet_server
+    build: client/
+    ports:
+      - 80:8080
+    depends_on:
+      - server
